@@ -47,6 +47,7 @@
 
 
 
+
 // payment-server.js
 const express = require('express');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY); // Add your key in .env
